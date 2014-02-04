@@ -1,0 +1,9 @@
+﻿  boundingBoxDetect.cpp
+boundingBoxDetect.cpp(121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+boundingBoxDetect.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+boundingBoxDetect.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+boundingBoxDetect.cpp(157): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+boundingBoxDetect.cpp(164): warning C4101: 'tempPt' : unreferenced local variable
+boundingBoxDetect.cpp(76): warning C4101: 'i' : unreferenced local variable
+boundingBoxDetect.cpp(75): warning C4101: 'pts' : unreferenced local variable
+  boundingBoxDetect.vcxproj -> C:\Users\abgg\Documents\Visual Studio 2012\Projects\boundingBoxDetect\x64\Debug\boundingBoxDetect.exe

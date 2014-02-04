@@ -1,0 +1,46 @@
+﻿  boundingBoxDetect.cpp
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(2): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+          command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(2): warning C4603: '_CRT_SECURE_NO_WARNINGS' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(5) : use of precompiled header
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(129): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(177): warning C4018: '<' : signed/unsigned mismatch
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(213): warning C4018: '<' : signed/unsigned mismatch
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(136): warning C4101: 'tempPt' : unreferenced local variable
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(51): warning C4101: 'i' : unreferenced local variable
+c:\users\abgg\documents\visual studio 2012\projects\boundingboxdetect\boundingboxdetect\boundingboxdetect.cpp(50): warning C4101: 'pts' : unreferenced local variable
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvCreateImage referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvGetSize referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvInRangeS referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvCreateMemStorage referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvStartReadSeq referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvChangeSeqBlock referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvLine referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvDrawContours referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Exception::Exception(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (??0Exception@cv@@QAE@HABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H@Z) referenced in function "class cv::FileStorage & __cdecl cv::operator<<<int>(class cv::FileStorage &,int const &)" (??$?6H@cv@@YAAAVFileStorage@0@AAV10@ABH@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall cv::Exception::~Exception(void)" (??1Exception@cv@@UAE@XZ) referenced in function "class cv::FileStorage & __cdecl cv::operator<<<int>(class cv::FileStorage &,int const &)" (??$?6H@cv@@YAAAVFileStorage@0@AAV10@ABH@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "void __cdecl cv::error(class cv::Exception const &)" (?error@cv@@YAXABVException@1@@Z) referenced in function "class cv::FileStorage & __cdecl cv::operator<<<int>(class cv::FileStorage &,int const &)" (??$?6H@cv@@YAAAVFileStorage@0@AAV10@ABH@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::FileStorage::FileStorage(void)" (??0FileStorage@cv@@QAE@XZ) referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall cv::FileStorage::~FileStorage(void)" (??1FileStorage@cv@@UAE@XZ) referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::FileStorage::open(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?open@FileStorage@cv@@UAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H0@Z) referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::FileStorage::isOpened(void)const " (?isOpened@FileStorage@cv@@UBE_NXZ) referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall cv::FileStorage::release(void)" (?release@FileStorage@cv@@UAEXXZ) referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "void __cdecl cv::write(class cv::FileStorage &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?write@cv@@YAXAAVFileStorage@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) referenced in function "class cv::FileStorage & __cdecl cv::operator<<<int>(class cv::FileStorage &,int const &)" (??$?6H@cv@@YAAAVFileStorage@0@AAV10@ABH@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "void __cdecl cv::write(class cv::FileStorage &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)" (?write@cv@@YAXAAVFileStorage@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) referenced in function "class cv::FileStorage & __cdecl cv::operator<<<float>(class cv::FileStorage &,float const &)" (??$?6M@cv@@YAAAVFileStorage@0@AAV10@ABM@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol "class cv::FileStorage & __cdecl cv::operator<<(class cv::FileStorage &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??6cv@@YAAAVFileStorage@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "class cv::FileStorage & __cdecl cv::operator<<(class cv::FileStorage &,char const *)" (??6cv@@YAAAVFileStorage@0@AAV10@PBD@Z)
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvSmooth referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvFindContours referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvMinAreaRect2 referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvBoxPoints referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvPointPolygonTest referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvCanny referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvShowImage referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvLoadImage referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvSaveImage referenced in function _main
+boundingBoxDetect.obj : error LNK2019: unresolved external symbol _cvWaitKey referenced in function _main
+C:\Users\abgg\Documents\Visual Studio 2012\Projects\boundingBoxDetect\Debug\boundingBoxDetect.exe : fatal error LNK1120: 29 unresolved externals
